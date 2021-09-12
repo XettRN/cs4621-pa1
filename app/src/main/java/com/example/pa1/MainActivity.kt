@@ -27,14 +27,16 @@ class MainActivity : AppCompatActivity() {
         val coorsDog = storage.child("images/coorsdog.jpg")
         val drDog = storage.child("images/drpepperdog.jpg")
         val pepsiDog = storage.child("images/pepsidog.jpg")
+        val mtDog = storage.child("images/mtdewdog.jpg")
 
         //Random Image
-        val randInt = (1..5).random()
+        val randInt = (1..6).random()
         val randImage = when (randInt) {
             1 -> canDog
             2 -> cokeDog
             3 -> coorsDog
             4 -> drDog
+            5 -> mtDog
             else -> pepsiDog
         }
 
