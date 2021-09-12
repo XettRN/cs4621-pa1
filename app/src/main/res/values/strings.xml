@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PA1</string>
+    <string name="click_for_meme_dogs">Click for meme dogs</string>
+    <string name="meme">Meme</string>
 </resources>
